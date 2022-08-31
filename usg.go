@@ -59,10 +59,10 @@ func (u *InfluxUnifi) batchUSGstats(ss unifi.SpeedtestStatus, gw *unifi.Gw, ul u
 	}
 
 	return map[string]interface{}{
-		"uplink_name":                    ul.Name.Val,
+		"uplink_name":                    ul.Name,
 		"uplink_latency":                 ul.Latency.Val,
 		"uplink_speed":                   ul.Speed.Val,
-		"uplink_type":                    ul.Type.Val,
+		"uplink_type":                    ul.Type,
 		"speedtest-status_latency":       ss.Latency.Val,
 		"speedtest-status_runtime":       ss.Runtime.Val,
 		"speedtest-status_rundate":       ss.Rundate.Val,
