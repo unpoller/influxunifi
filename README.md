@@ -1,5 +1,3 @@
 # influxunifi
 
-## UnPoller Input Plugin
-
-Collects UniFi data from a UniFi controller using the API.
+Moved to https://github.com/unpoller/unpoller/tree/master/pkg/influxunifi
